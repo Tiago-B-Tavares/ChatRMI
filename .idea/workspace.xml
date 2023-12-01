@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59c766d4-4d23-4bcf-b493-f5dece57a5fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/img/8793b7f3009c87baf350de82a5f72423.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChatRmi/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Ys5uwMf7gKbiHxjTQUPSDtxVgb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professores/Documents/NetBeansProjects/ChatRMI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatRmi.ChatClient" />
+      <module name="ChatRMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChatRmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatRmi.Server" />
+      <module name="ChatRMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChatRmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59c766d4-4d23-4bcf-b493-f5dece57a5fe" name="Changes" comment="" />
+      <created>1701301673541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701301673541</updated>
+      <workItem from="1701301674517" duration="2890000" />
+      <workItem from="1701371207977" duration="11134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

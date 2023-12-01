@@ -31,13 +31,29 @@ public class FrmChat extends javax.swing.JFrame {
         txtHistorico = new javax.swing.JTextArea();
         txtMensagem = new javax.swing.JTextField();
         btnEnviar = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jList1 = new javax.swing.JList<>();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(0, 0));
+        setLocationByPlatform(true);
+        setMinimumSize(new java.awt.Dimension(500, 500));
+        setPreferredSize(new java.awt.Dimension(500, 500));
+        setResizable(false);
+        getContentPane().setLayout(null);
 
         txtHistorico.setEditable(false);
-        txtHistorico.setColumns(20);
+        txtHistorico.setColumns(5);
+        txtHistorico.setLineWrap(true);
         txtHistorico.setRows(5);
+        txtHistorico.setWrapStyleWord(true);
         jScrollPane1.setViewportView(txtHistorico);
+
+        getContentPane().add(jScrollPane1);
+        jScrollPane1.setBounds(10, 20, 330, 340);
+        getContentPane().add(txtMensagem);
+        txtMensagem.setBounds(10, 380, 330, 50);
 
         btnEnviar.setText("Enviar");
         btnEnviar.addActionListener(new java.awt.event.ActionListener() {
@@ -45,34 +61,24 @@ public class FrmChat extends javax.swing.JFrame {
                 btnEnviarActionPerformed(evt);
             }
         });
+        getContentPane().add(btnEnviar);
+        btnEnviar.setBounds(360, 380, 50, 50);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(txtMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnEnviar)))
-                .addContainerGap(47, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnEnviar))
-                .addContainerGap(77, Short.MAX_VALUE))
-        );
+        jList1.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        jScrollPane2.setViewportView(jList1);
+
+        getContentPane().add(jScrollPane2);
+        jScrollPane2.setBounds(350, 20, 120, 340);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ChatRmi/img/8793b7f3009c87baf350de82a5f72423.jpg"))); // NOI18N
+        jLabel1.setMinimumSize(new java.awt.Dimension(500, 500));
+        jLabel1.setPreferredSize(new java.awt.Dimension(500, 500));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(1, 0, 630, 470);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -119,7 +125,10 @@ public class FrmChat extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEnviar;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JList<String> jList1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea txtHistorico;
     private javax.swing.JTextField txtMensagem;
     // End of variables declaration//GEN-END:variables
