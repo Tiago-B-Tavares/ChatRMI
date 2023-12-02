@@ -12,20 +12,20 @@ public class ChatClient {
         try {//bloco protegido
             final ChatInterface chat = (ChatInterface) Naming.lookup("rmi://localhost:1098/ChatInterface");// procura um objeto no stub local
             final int controle = 2;
-            String nome = "";
-            String msg;
-            chat.enviarMensagem("teste");
+            String nomeUsuario = "";
+            String msgEnviada;
+
             System.out.println(chat.lerMensagem());
 
             FrmChat meuchat = new FrmChat();
 
 
-            while (nome == null || nome.equals("")) {
-                nome = (JOptionPane.showInputDialog("Nome"));//janela para o nome.
-                chat.enviarMensagem("\t\t\t" + nome + " Entrou em um grupo de conversa\n");// enviando mensagem para o servidor
+            while (nomeUsuario == null || nomeUsuario.equals("")) {
+                nomeUsuario = (JOptionPane.showInputDialog("Nome"));//janela para o nome.
+                chat.enviarMensagem("\t\t\t" + nomeUsuario + " Entrou em um grupo de conversa\n");// enviando mensagem para o servidor
             }
             meuchat.setVisible(true);
-            meuchat.setTextArea("\nVocê entrou em um grupo de conversa " + nome + "\n");
+            meuchat.setTextArea("\nVocê entrou em um grupo de conversa " + nomeUsuario + "\n");
 
             Thread thread = new Thread(new Runnable() {
                 int cont = chat.lerMensagem().size();// tamanho do array
@@ -56,11 +56,11 @@ public class ChatClient {
                 Thread.currentThread().sleep(2000);
                 System.out.println(meuchat.isClicou());
                 if (meuchat.isClicou()) {
-                    msg = nome + ": " + meuchat.getTextField() + "\n";
+                    msgEnviada = nomeUsuario + ": " + meuchat.getTextField() + "\n";
                     // Caso o usuario tenha digitado algo.
                     if (!meuchat.getTextField().equals("")) {
                         // Envia a mensagem para a interface para retornar ao usuário novamente.
-                        chat.enviarMensagem(msg);
+                        chat.enviarMensagem(msgEnviada);
                         meuchat.setTextField("");
                     }
                 }

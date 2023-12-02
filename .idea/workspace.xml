@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59c766d4-4d23-4bcf-b493-f5dece57a5fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/img/8793b7f3009c87baf350de82a5f72423.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ChatRmi/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatRmi/FrmChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/ChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChatRmi/FrmChat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -89,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1701301673541</updated>
       <workItem from="1701301674517" duration="2890000" />
-      <workItem from="1701371207977" duration="11134000" />
+      <workItem from="1701371207977" duration="11771000" />
+      <workItem from="1701477004085" duration="981000" />
     </task>
     <servers />
   </component>
