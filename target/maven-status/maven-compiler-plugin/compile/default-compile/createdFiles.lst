@@ -1,0 +1,4 @@
+ChatRmi\ChatInterface.class
+ChatRmi\ChatClient.class
+ChatRmi\ChatServerImpl.class
+ChatRmi\Server.class
